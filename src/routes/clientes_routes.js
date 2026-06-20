@@ -5,6 +5,9 @@ const {
     getUsuarios
 } = require('../controllers/clientes_controller');
 
+// GET /usuarios
 router.get('/', getUsuarios);
+
+
 
 module.exports = router;
